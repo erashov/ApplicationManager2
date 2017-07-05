@@ -17,6 +17,12 @@
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Content Remove="ClientApp\**" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationManager.DAL\ApplicationManager.DAL.csproj" />
+    <ProjectReference Include="..\ApplicationManager.Model\ApplicationManager.Model.csproj" />
+    <ProjectReference Include="..\ApplicationManager.Repository\ApplicationManager.Repository.csproj" />
+    <ProjectReference Include="..\ApplicationManager.Service\ApplicationManager.Service.csproj" />
+  </ItemGroup>
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
