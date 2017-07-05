@@ -241,26 +241,3 @@ ModelManifest.xml
 # Paket dependency manager
 .paket/paket.exe
 
-# FAKE - F# Make
-.fake/
-/src/Pioneer.Blog/bower_components
-/src/Pioneer.Blog/temp
-/src/Pioneer.Blog/posts
-/src/Pioneer.Blog/Properties/PublishProfiles
-/src/Pioneer.Blog/typescript/models
-/src/Pioneer.Blog/typescript/repositories
-/src/Pioneer.Blog/typescript/services
-/src/Pioneer.Blog/wwwroot/fonts/*
-/src/Pioneer.Blog.DAL/Scripts
-/src/Pioneer.Blog/appsettings.Development.json
-/src/Pioneer.Blog/appsettings.Production.json
-/src/Pioneer.Blog.DAL/appsettings.Production.json
-/src/Pioneer.Blog.DAL/appsettings.Development.json
-/src/Pioneer.Blog/typescript/typings
-/src/Pioneer.Blog/wwwroot/app.js
-/src/Pioneer.Blog/wwwroot/app.css
-/src/Pioneer.Blog/wwwroot/admin/app
-/src/Pioneer.Blog/wwwroot/admin/libs
-/src/Pioneer.Blog/dev/admin/**/*.js
-/src/Pioneer.Blog/typings/**/*
-/src/Pioneer.Blog/package-lock.json
