@@ -41,7 +41,7 @@
     "typescript": "2.4.1",
     "url-loader": "0.5.9",
     "webpack": "3.0.0",
-    "webpack-hot-middleware": "2.18.1",
+    "webpack-hot-middleware": "^2.18.2",
     "webpack-merge": "4.1.0",
     "zone.js": "0.8.12"
   },
